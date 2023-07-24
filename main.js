@@ -15,7 +15,7 @@ function convert() {
         result = inputValue / 39.37; // 1 inch = 0.0254 meters
     }
 
-    document.getElementById("result").textContent = `${inputValue} ${inputUnit} is equal to ${result.toFixed(2)} ${outputUnit}`;
+    document.getElementById("result").textContent = `${inputValue} ${inputUnit}  es igual a ${result.toFixed(2)} ${outputUnit}`;
 }
 
 // Add event listeners or other JavaScript functionalities as needed
