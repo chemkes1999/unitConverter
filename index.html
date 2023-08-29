@@ -6,8 +6,8 @@
 </head>
 <body>
 <h1>Convertidor de unidades</h1>
-<label for="inputValue">Enter Value:</label>
-<input id="inputValue" type="number">
+<label for="inputValue">Ingresa el valor:</label>
+<input id="inputValue" type="number" step="any">
 
 <label for="inputUnit">Selecciona la unidad de entrada:</label>
 <select id="inputUnit">
@@ -20,12 +20,12 @@
 <label for="outputUnit">Selecciona la unidad de salida:</label>
 <select id="outputUnit">
     <option value="meters">Metros</option>
-    <option value="inches">Pulagadas</option>
+    <option value="inches">Pulgadas</option>
     <option value="pounds">Libras</option>
     <!-- Add more unit options as needed -->
 </select>
 
-<button onclick="convert()">Convertir</button>
+<button id="convertButton">Convertir</button>
 
 <p id="result"></p>
 
